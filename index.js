@@ -11,7 +11,8 @@ app.use(express.json());
 
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/ToDoByMERN');
+// mongoose.connect('mongodb://127.0.0.1:27017/ToDoByMERN');
+mongoose.connect('mongodb+srv://pushpamgaurav3:6e3IvBBzi70axQky@cluster0.fdsogra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 
 const todoController = require('./Controller/todoController');
